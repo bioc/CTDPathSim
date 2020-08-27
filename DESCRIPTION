@@ -18,7 +18,7 @@ LazyData: true
 Imports: grDevices, utils, stringr, dplyr, reshape, reshape2, EDec, tidyr, data.table, 
          parallel, matrixStats, RColorBrewer, gplots, xlsx, pathfindR, sqldf, plyr, 
          statmod, readr, Matrix, matrixcalc, pathfindR.data, gsubfn, stats
-Depends: R (>= 4.1)
+Depends: R (>= 4.0)
 VignetteBuilder: knitr
 Suggests: BiocStyle, knitr, rmarkdown
 biocViews: GeneRegulation, GO, DifferentialExpression, DifferentialMethylation, Network, GeneExpression, Pathways, Reactome
