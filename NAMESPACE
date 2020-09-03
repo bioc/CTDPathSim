@@ -32,8 +32,7 @@ import('grDevices',
     'matrixStats',
     'clue',
     'gtools',
-    'quadprog'
-    'matrixStats'
+    'quadprog',
     'matrixStats'
 );
 
