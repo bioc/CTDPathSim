@@ -32,5 +32,5 @@ Banabithi Bose
 \examples{
 ##RUNNING THE FUNCTION
 load(system.file("extdata", "Example.Expression.50.rda", package = "CTDPathSim"))
-GetSampleDE(RnaSeq_fpkm_hgnc_data=RnaSeq_fpkm_hgnc_data,parallel=FALSE,ncores=5)
+##GetSampleDE(RnaSeq_fpkm_hgnc_data=RnaSeq_fpkm_hgnc_data,parallel=FALSE,ncores=5)
 }

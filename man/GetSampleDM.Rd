@@ -31,5 +31,5 @@ Banabithi Bose
 }
 \examples{
 load(system.file("extdata", "Example.gene.centric.methylation.50.rda", package = "CTDPathSim"))
-GetSampleDM(All_methylation=All_methylation,parallel=FALSE,ncores=5)
+##GetSampleDM(All_methylation=All_methylation,parallel=FALSE,ncores=5)
 }

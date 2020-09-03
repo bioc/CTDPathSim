@@ -39,6 +39,6 @@ load("~/CTDPathSim/inst/extdata/Example.patient1.deconvoluted.expression.rda")
 load("~/CTDPathSim/inst/extdata/Example.cellLine1.de.genes.rda")
 load("~/CTDPathSim/inst/extdata/Example.cellLine1.pathways.rda")
 load("~/CTDPathSim/inst/extdata/Example.cellLine1.expression.rda")
-patient1.cellLine1.spearman<-FindSim(pat_de_genes,pat_reactome,expression,
-cell_de_genes,cell_reactome,ccle_expr)
+##patient1.cellLine1.spearman<-FindSim(pat_de_genes,pat_reactome,expression,
+##cell_de_genes,cell_reactome,ccle_expr)
 }
