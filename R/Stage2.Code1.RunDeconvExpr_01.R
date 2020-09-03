@@ -11,11 +11,7 @@ RunDeconvExpr<-function(RnaSeq_fpkm_hgnc_data,Deconv_proportions){
     x1<-data.table(colnames(RnaSeq_fpkm_hgnc_data))
     x2<-data.table(row.names(Deconv_proportions))
     common_samples<-unique(merge(x1,x2,by="V1"))
-<<<<<<< HEAD
     stage2_result_tumors = run_edec_stage_2(
-=======
-    stage2_result_tumors = EDec::run_edec_stage_2(
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
     gene_exp_bulk_samples = RnaSeq_fpkm_hgnc_data[,common_samples$V1],
     cell_type_props = Deconv_proportions[common_samples$V1,])
     Deconv_expression <-stage2_result_tumors$means

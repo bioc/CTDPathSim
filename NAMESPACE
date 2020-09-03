@@ -18,10 +18,8 @@ import('grDevices',
     'xlsx',
     'utils',
     'stringr',
-<<<<<<< HEAD
-=======
     'EDec',
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
+    'EDec',
     'data.table',
     'parallel',
     'matrixStats',
@@ -33,14 +31,12 @@ import('grDevices',
     'readr',
     'Matrix',
     'matrixcalc',
-<<<<<<< HEAD
     'matrixStats',
     'clue',
     'gtools',
     'quadprog'
-=======
     'matrixStats'
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
+    'matrixStats'
 );
 
 importFrom("tidyr",

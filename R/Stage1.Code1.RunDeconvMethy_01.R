@@ -15,6 +15,7 @@ RunDeconvMethyl<-function(Example.Methylation,markers_ovr){
     chosen_markers_ovr <- intersect(row.names(Example.Methylation),markers_ovr)
     #Choosing a good number of cell types
     #set.seed(1)
+
     stabilityResult <- estimate_stability(meth_bulk_samples = Example.Methylation,
                                                 informative_loci = chosen_markers_ovr,
                                                 possible_num_ct = 3:8,
