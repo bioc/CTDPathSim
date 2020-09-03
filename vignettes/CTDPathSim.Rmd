@@ -386,15 +386,7 @@ ncores - An integer value for the number of cores the use if the code is run in 
 ```{r}
 ##RUNNING THE FUNCTION
 load(system.file("extdata", "Example.Expression.50.rda", package = "CTDPathSim"))
-<<<<<<< HEAD
-<<<<<<< HEAD
 #GetSampleDE(RnaSeq_fpkm_hgnc_data=RnaSeq_fpkm_hgnc_data,parallel=FALSE,ncores=5)
-=======
-GetSampleDE(RnaSeq_fpkm_hgnc_data=RnaSeq_fpkm_hgnc_data,parallel=FALSE,ncores=5)
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
-=======
-GetSampleDE(RnaSeq_fpkm_hgnc_data=RnaSeq_fpkm_hgnc_data,parallel=FALSE,ncores=5)
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
 ```
 
 ## <a id = "GetSampleDM"> </a> GetSampleDM
@@ -408,15 +400,7 @@ ncores - An integer value for the number of cores the use if the code is run in 
 
 ```{r}
 load(system.file("extdata", "Example.gene.centric.methylation.50.rda", package = "CTDPathSim"))
-<<<<<<< HEAD
-<<<<<<< HEAD
 #GetSampleDM(All_methylation=All_methylation,parallel=FALSE,ncores=5)
-=======
-GetSampleDM(All_methylation=All_methylation,parallel=FALSE,ncores=5)
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
-=======
-GetSampleDM(All_methylation=All_methylation,parallel=FALSE,ncores=5)
->>>>>>> 14209712fa443e93cbd50dd499c4d186bf5a6d35
 ```
 
 ## <a id = "GetPath"> </a> GetPath
