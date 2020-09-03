@@ -1,7 +1,7 @@
 Package: CTDPathSim
 Type: Package
 Title: CTDPathSim: Cell line-tumor deconvoluted pathway-based similarity in the context of precision medicine in cancer
-Version: 0.99.6
+Version: 0.99.7
 Authors@R: c(person("Banabithi", "Bose", email="banabithi.bose@marquette.edu", role=c("aut")), 
            person("Serdar", "Bozdag", email="serdar.bozdag@marquette.edu", role="aut"),
            person("Matthew", "Moravec", email="matt.moravec222@gmail.com", role = "cre"))
