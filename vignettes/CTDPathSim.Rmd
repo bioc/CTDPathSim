@@ -132,7 +132,7 @@ This section will cover the data inputs and output of the fifth and final functi
 ## <a id = "Deconv_meth_gene"> </a> Deconv_meth_gene
 This data set is a R dataframe object with the deconvoluted methylation values for each gene and cell type.
 ```{r}
-load(system.file("extdata", "Example.Deconv.meth.gene.450k.rda", package = "CTDPathSim"))
+load(system.file("extdata", "Example.Deconv.meth.gene.450K.rda", package = "CTDPathSim"))
 print(Deconv_meth_gene[1:3,1:3])
 ```
 
