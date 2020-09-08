@@ -336,7 +336,7 @@ Deconv_proportions - A R dataframe object with the proportions of each cell type
 
 ```{r}
 ##RUNNING THE FUNCTION WITH EXAMPLE DATASETS
-load(system.file("extdata", "Example.Deconv.Methylation.450k.50.rda", package = "CTDPathSim"))
+load(system.file("extdata", "Example.Deconv.methylation.450k.50.rda", package = "CTDPathSim"))
 load(system.file("extdata", "Example.Deconv.proportions.450K.rda", package = "CTDPathSim"))
 
 ##SAMPLE SPECIFIC METHYLATION FILES ARE SAVED IN Sample_methylation FOLDER
